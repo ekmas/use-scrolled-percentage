@@ -1,0 +1,35 @@
+{
+  "name": "use-scrolled-percentage",
+  "version": "1.0.0",
+  "description": "A react hook for calculating scrolled percentage of screen.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekmas/use-scrolled-percentage.git"
+  },
+  "keywords": [
+    "react-hook",
+    "scroll"
+  ],
+  "author": "samke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekmas/use-scrolled-percentage/issues"
+  },
+  "homepage": "https://github.com/ekmas/use-scrolled-percentage#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "babel": "^6.23.0",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
